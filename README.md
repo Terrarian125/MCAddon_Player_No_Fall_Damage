@@ -1,0 +1,2 @@
+# MCAddon_Player_No_Fall_Damage
+マイクラ統合版アドオン：落下ダメージ無効
