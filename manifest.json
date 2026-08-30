@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Player No Fall Damage",
+    "description": "プレイヤーの落下ダメージだけを無効化します。",
+    "uuid": "6a94a49d-875d-42d1-b643-7cc4492da0ff",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      130
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "459ae2a2-7b65-466c-826c-d315fa64dd9d",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "23897274-7815-4693-93ac-36f8ed0fa5df",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.9.0"
+    }
+  ]
+}
